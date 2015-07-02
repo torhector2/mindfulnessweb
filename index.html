@@ -110,7 +110,7 @@
                     	<!-- INSERT STORES  -->
                     	<ul class="clearfix stores">
                     		<li><a id="iOSDownloadUrl" href="https://itunes.apple.com/app/id572966485"><img src="img/apple.png" alt="Download iOS App" /></a></li>
-                    		<li><a id="iOSDownloadUrl" href="https://play.google.com/store/apps/details?id=com.gmeditations.audioguides"><img src="img/android.png" alt="Download Android App" /></a></li>
+                    		<li><a id="AndroidDownloadUrl" href="https://play.google.com/store/apps/details?id=com.gmeditations.audioguides"><img src="img/android.png" alt="Download Android App" /></a></li>
                     	</ul>
                     </article>		
                 
@@ -216,8 +216,12 @@
             //iOS Download Event
             // id="iOSDownloadUrl"
             $('#iOSDownloadUrl').on('click', function() {
-               alert('pulsado');
-              ga('send', 'event', 'anchor', 'click', 'iOSDownloadLinkPressed');
+              ga('send', 'event', 'anchor', 'click', 'iOS DownloadLinkPressed');
+            });
+
+            $('#AndroidDownloadUrl').on('click', function() {
+               alert('pulsado android');
+              ga('send', 'event', 'anchor', 'click', 'ANDROID DownloadLinkPressed');
             });
 
         </script>
