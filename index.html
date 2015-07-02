@@ -109,8 +109,8 @@
                     	<p>Our app is available for download on the following:</p>
                     	<!-- INSERT STORES  -->
                     	<ul class="clearfix stores">
-                    		<li><a href="https://itunes.apple.com/app/id572966485"><img src="img/apple.png" alt="Download iOS App" /></a></li>
-                    		<li><a href="https://play.google.com/store/apps/details?id=com.gmeditations.audioguides"><img src="img/android.png" alt="Download Android App" /></a></li>
+                    		<li><a id="iOSDownloadUrl" href="https://itunes.apple.com/app/id572966485"><img src="img/apple.png" alt="Download iOS App" /></a></li>
+                    		<li><a id="iOSDownloadUrl" href="https://play.google.com/store/apps/details?id=com.gmeditations.audioguides"><img src="img/android.png" alt="Download Android App" /></a></li>
                     	</ul>
                     </article>		
                 
@@ -211,6 +211,15 @@
 
             ga('create', 'UA-64680190-1', 'auto');
             ga('send', 'pageview');
+
+
+            //iOS Download Event
+            // id="iOSDownloadUrl"
+            $('#iOSDownloadUrl').on('click', function() {
+               alert('pulsado');
+              ga('send', 'event', 'anchor', 'click', 'iOSDownloadLinkPressed');
+            });
+
         </script>
     </body>
 </html>
