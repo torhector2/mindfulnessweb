@@ -231,7 +231,8 @@ em{
 	list-style-type: none;
 	display: inline-block;
 	float: none;
-	width: 35px;
+	/* width: 35px; */
+	width: 80px;
 	padding-right: 1em;
 	border-right: 1px solid #dddddd;
 	margin: 0 1em 1em 0;
