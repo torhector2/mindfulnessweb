@@ -284,5 +284,36 @@
                 daysReminder: 0
             }) } )
         </script>
+        <script>
+            var isMobile = {
+                Android: function() {
+                    return navigator.userAgent.match(/Android/i);
+                },
+                BlackBerry: function() {
+                    return navigator.userAgent.match(/BlackBerry/i);
+                },
+                iOS: function() {
+                    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+                },
+                Opera: function() {
+                    return navigator.userAgent.match(/Opera Mini/i);
+                },
+                Windows: function() {
+                    return navigator.userAgent.match(/IEMobile/i);
+                },
+                any: function() {
+                    return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+                }
+            };
+            /* if the device is not ios hide the download button */
+            if(isMobile.iOS()){
+                   /* AppStore */
+                   window.location.replace("https://itunes.apple.com/app/id572966485");
+            };
+            if(isMobile.Android()){
+                   /* Google Play */
+                   window.location.replace("https://play.google.com/store/apps/details?id=com.gmeditations.audioguides");
+            };
+            </script>
     </body>
 </html>
