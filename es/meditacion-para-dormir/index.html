@@ -129,10 +129,49 @@
 
 <header class="cabecera">
   <div class="cabecera__in">
-    <a class="marca" href="/es/"><img src="/assets/img/icono-64.webp" width="32" height="32" alt="Icono de Mindfulness">Mindfulness</a>
-    <nav aria-label="Ayuda"><a href="/es/soporte/">Ayuda</a></nav>
+    <a class="marca" href="/es/"><img src="/assets/img/icono-64.webp" width="32" height="32" alt="">Mindfulness</a>
+    <nav class="menu" aria-label="Principal">
+      <ul class="menu__lista">
+        <li><a href="/es/#como-funciona">Cómo funciona</a></li>
+        <li><a href="/es/#gratis-y-pro">Gratis y Pro</a></li>
+        <li><details class="menu__sub"><summary>Respiración<svg class="menu__flecha" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5 5 7l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ul><li><a href="/es/respiracion-4-7-8/">Respiración 4-7-8</a></li><li><a href="/es/respiracion-cuadrada/">Respiración cuadrada</a></li></ul></details></li>
+        <li><a href="/es/meditacion-para-dormir/" aria-current="page">Dormir</a></li>
+        <li><a href="/es/soporte/">Ayuda</a></li>
+        <li><a class="menu__descargar" href="https://apps.apple.com/es/app/id572966485">Descargar</a></li>
+      </ul>
+    </nav>
+    <details class="menu-movil">
+      <summary><svg class="menu-movil__abrir" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 9h14M2 13h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><svg class="menu-movil__cerrar" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 4l10 10M14 4 4 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>Menú</summary>
+      <nav class="menu-movil__panel" aria-label="Principal">
+        <ul>
+          <li><a href="/es/#como-funciona">Cómo funciona</a></li>
+          <li><a href="/es/#gratis-y-pro">Gratis y Pro</a></li>
+          <li><a href="/es/respiracion-4-7-8/">Respiración 4-7-8</a></li>
+          <li><a href="/es/respiracion-cuadrada/">Respiración cuadrada</a></li>
+          <li><a href="/es/meditacion-para-dormir/" aria-current="page">Dormir</a></li>
+          <li><a href="/es/soporte/">Ayuda</a></li>
+        </ul>
+        <a class="menu__descargar" href="https://apps.apple.com/es/app/id572966485">Descargar</a>
+      </nav>
+    </details>
   </div>
 </header>
+<script>
+(function () {
+  function abiertos() { return document.querySelectorAll('.cabecera details[open]'); }
+  document.addEventListener('click', function (e) {
+    abiertos().forEach(function (d) { if (!d.contains(e.target) || e.target.closest('a')) d.open = false; });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    abiertos().forEach(function (d) {
+      var dentro = d.contains(document.activeElement);
+      d.open = false;
+      if (dentro) d.querySelector('summary').focus();
+    });
+  });
+})();
+</script>
 
 <main id="contenido">
 
@@ -148,7 +187,7 @@
       </div>
     </div>
     <div class="bloque__fotos">
-      <div class="tel" style="--alto:2000"><picture><source type="image/avif" srcset="/assets/img/dormir-390.avif 390w, /assets/img/dormir-720.avif 720w" sizes="(min-width: 900px) 318px, 64vw"><img src="/assets/img/dormir-390.webp" srcset="/assets/img/dormir-390.webp 390w, /assets/img/dormir-720.webp 720w" sizes="(min-width: 900px) 318px, 64vw" width="390" height="793" fetchpriority="high" alt="Reproductor de Mindfulness de noche: suena una meditación para dormir con lluvia de fondo y la opción de apagar el sonido «Al acabar»"></picture></div>
+      <div class="tel" style="--alto:2000"><picture><source type="image/avif" srcset="/assets/img/dormir-390.avif 390w, /assets/img/dormir-720.avif 720w" sizes="(min-width: 900px) 362px, 64vw"><img src="/assets/img/dormir-390.webp" srcset="/assets/img/dormir-390.webp 390w, /assets/img/dormir-720.webp 720w" sizes="(min-width: 900px) 362px, 64vw" width="390" height="793" fetchpriority="high" alt="Reproductor de Mindfulness de noche: suena una meditación para dormir con lluvia de fondo y la opción de apagar el sonido «Al acabar»"></picture></div>
     </div>
   </div>
 </section>
