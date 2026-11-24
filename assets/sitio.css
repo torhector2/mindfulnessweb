@@ -284,6 +284,7 @@ a:focus-visible, summary:focus-visible, button:focus-visible {
 .pie a { color: var(--tinta); font-weight: 600; text-decoration: none; display: inline-block; padding: 4px 0; }
 .pie a:hover { text-decoration: underline; }
 .pie p { margin: 0; }
+.pie .pie__datos { max-width: 68ch; margin: 0 0 10px; }
 .pie select {
   font: inherit; color: var(--tinta); background: var(--tarjeta);
   border: 1px solid var(--raya); border-radius: 8px; padding: 6px 8px;

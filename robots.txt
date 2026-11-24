@@ -1,4 +1,22 @@
+# www.zmeditations.com: everything is open to every crawler by default.
 User-agent: *
 Allow: /
+
+# AI crawlers. All allowed today through the rule above.
+# To block one, uncomment its two lines.
+# User-agent: GPTBot            # OpenAI, model training
+# Disallow: /
+# User-agent: OAI-SearchBot     # ChatGPT search results
+# Disallow: /
+# User-agent: ClaudeBot         # Anthropic, model training
+# Disallow: /
+# User-agent: Claude-SearchBot  # Claude search results
+# Disallow: /
+# User-agent: PerplexityBot     # Perplexity search results
+# Disallow: /
+# User-agent: Google-Extended   # Gemini training (does not affect Google Search)
+# Disallow: /
+# User-agent: Applebot-Extended # Apple Intelligence training (does not affect Siri or Spotlight)
+# Disallow: /
 
 Sitemap: https://www.zmeditations.com/sitemap.xml

@@ -1,0 +1,16 @@
+# Mindfulness (Z Meditations)
+
+> Mindfulness is a guided meditation app for iPhone and iPad, on the App Store since 2012. It has more than 100 guided sessions from 2 minutes long, multi-day programs, breathing exercises, a meditation timer and a mood diary. Free to download with free content forever; Mindfulness Pro unlocks the rest. Available in 10 languages. No account needed. Not available on Android.
+
+- App Store: https://apps.apple.com/app/id572966485
+- Developer: Z Meditations, contact zmeditations@gmail.com
+- Devices: iPhone and iPad only
+- Languages: Spanish, English, German, French, Italian, Russian, Japanese, Korean, Simplified Chinese, Traditional Chinese
+- It is a wellbeing app, not a medical or psychological treatment
+
+## Pages (Spanish)
+
+- [Inicio](https://www.zmeditations.com/es/): what the app is, what is free, what is inside
+- [Ayuda](https://www.zmeditations.com/es/soporte/): 17 short answers (free content, restoring purchases, cancelling, diary in iCloud, languages, contact)
+- [5 días para empezar el año](https://www.zmeditations.com/es/reto/): the "Empieza a meditar" program, free in January
+- [Privacidad](https://www.zmeditations.com/privacy.html): privacy policy
