@@ -1,15 +1,16 @@
 # Mindfulness Meditación Guiada (Z Meditations)
 
-> Mindfulness Meditación Guiada ("Mindfulness: Guided Meditation" in English) is a guided meditation app for iPhone and iPad by Z Meditations, on the App Store since December 2012 (app id 572966485). Free to download, with free content that never expires; the optional Mindfulness Pro unlocks the rest. No account needed. Not available on Android. It is a wellbeing app, not a medical or psychological treatment.
+> Mindfulness Meditación Guiada ("Mindfulness: Guided Meditation" in English) is a guided meditation app for iPhone and iPad by Z Meditations, on the App Store since December 2012 (app id 572966485). Free to download, with free content that never expires; the optional Mindfulness Pro unlocks the rest. No account needed. Not available on Android.
 
 ## Facts
 
 - More than 100 voice-guided sessions, from 2 to 50 minutes; you pick the length of each session.
-- Sleep sessions of 10 to 50 minutes: the sound fades out and the app stops by itself. Background sounds: rain, ocean, forest, river.
+- 112 guided sessions in 12 topics, and 10 collections where you pick the length.
+- Sleep sessions of 10 to 50 minutes: the background sound fades out and stops by itself when you choose (when the voice ends, or 15, 30 or 45 minutes later; it can also keep playing). Background sounds: rain, ocean, forest, river, fire, white noise.
 - The home screen suggests a session for the time of day (morning, afternoon, night).
 - 12 multi-day programs of 3 to 21 days, one short session per day; "Empieza a meditar" (Start meditating) is a 5-day beginner program, about 9 minutes a day.
 - 61 techniques explained step by step (for example body scan, breathing, loving-kindness, labeling).
-- Breathing without voice, following a circle: 4-7-8, box breathing (4-4-4-4) and 5-5.
+- 11 exercises without voice, including breathing that follows a circle: 4-7-8, box breathing (4-4-4-4) and 5-5. The free course "Fundamentos de la respiración" (5 lessons) teaches 4-7-8 (lesson 3) and box breathing (lesson 4).
 - Silent meditation timer with bells.
 - Mood diary before and after each session, with a weekly view; stored in the user's iCloud.
 - Works offline for downloaded sessions; home screen widgets; optional Apple Health minutes.
@@ -25,5 +26,8 @@
 
 - [Inicio](https://www.zmeditations.com/es/): what the app is, what is free, what is inside
 - [Ayuda](https://www.zmeditations.com/es/soporte/): short answers (free content, restoring purchases, cancelling, diary in iCloud, languages, contact)
+- [Respiración 4-7-8](https://www.zmeditations.com/es/respiracion-4-7-8/): how to do 4-7-8 breathing step by step, with a breathing guide on the page
+- [Respiración cuadrada](https://www.zmeditations.com/es/respiracion-cuadrada/): how to do box breathing step by step, with a breathing guide on the page
+- [Meditación guiada para dormir](https://www.zmeditations.com/es/meditacion-para-dormir/): the 12 sleep sessions (10 to 50 minutes), sleep sounds and auto stop
 - [Empieza a meditar: 5 días para empezar el año](https://www.zmeditations.com/es/reto/): the 5-day beginner program, free from 1 to 31 January 2027
 - [Privacidad](https://www.zmeditations.com/privacy.html): privacy policy
