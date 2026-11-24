@@ -1,16 +1,29 @@
-# Mindfulness (Z Meditations)
+# Mindfulness Meditación Guiada (Z Meditations)
 
-> Mindfulness is a guided meditation app for iPhone and iPad, on the App Store since 2012. It has more than 100 guided sessions from 2 minutes long, multi-day programs, breathing exercises, a meditation timer and a mood diary. Free to download with free content forever; Mindfulness Pro unlocks the rest. Available in 10 languages. No account needed. Not available on Android.
+> Mindfulness Meditación Guiada ("Mindfulness: Guided Meditation" in English) is a guided meditation app for iPhone and iPad by Z Meditations, on the App Store since December 2012 (app id 572966485). Free to download, with free content that never expires; the optional Mindfulness Pro unlocks the rest. No account needed. Not available on Android. It is a wellbeing app, not a medical or psychological treatment.
+
+## Facts
+
+- More than 100 voice-guided sessions, from 2 to 50 minutes; you pick the length of each session.
+- Sleep sessions of 10 to 50 minutes: the sound fades out and the app stops by itself. Background sounds: rain, ocean, forest, river.
+- The home screen suggests a session for the time of day (morning, afternoon, night).
+- 12 multi-day programs of 3 to 21 days, one short session per day; "Empieza a meditar" (Start meditating) is a 5-day beginner program, about 9 minutes a day.
+- 61 techniques explained step by step (for example body scan, breathing, loving-kindness, labeling).
+- Breathing without voice, following a circle: 4-7-8, box breathing (4-4-4-4) and 5-5.
+- Silent meditation timer with bells.
+- Mood diary before and after each session, with a weekly view; stored in the user's iCloud.
+- Works offline for downloaded sessions; home screen widgets; optional Apple Health minutes.
+- App languages (10): Spanish, English, German, French, Italian, Russian, Japanese, Korean, Simplified Chinese, Traditional Chinese.
+
+## Links
 
 - App Store: https://apps.apple.com/app/id572966485
-- Developer: Z Meditations, contact zmeditations@gmail.com
-- Devices: iPhone and iPad only
-- Languages: Spanish, English, German, French, Italian, Russian, Japanese, Korean, Simplified Chinese, Traditional Chinese
-- It is a wellbeing app, not a medical or psychological treatment
+- Website: https://www.zmeditations.com/ (Spanish today; other languages later, each in its own folder such as /en/)
+- Contact: zmeditations@gmail.com
 
 ## Pages (Spanish)
 
 - [Inicio](https://www.zmeditations.com/es/): what the app is, what is free, what is inside
-- [Ayuda](https://www.zmeditations.com/es/soporte/): 17 short answers (free content, restoring purchases, cancelling, diary in iCloud, languages, contact)
-- [5 días para empezar el año](https://www.zmeditations.com/es/reto/): the "Empieza a meditar" program, free in January
+- [Ayuda](https://www.zmeditations.com/es/soporte/): short answers (free content, restoring purchases, cancelling, diary in iCloud, languages, contact)
+- [Empieza a meditar: 5 días para empezar el año](https://www.zmeditations.com/es/reto/): the 5-day beginner program, free from 1 to 31 January 2027
 - [Privacidad](https://www.zmeditations.com/privacy.html): privacy policy

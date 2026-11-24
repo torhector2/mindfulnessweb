@@ -3,7 +3,9 @@ User-agent: *
 Allow: /
 
 # AI crawlers. All allowed today through the rule above.
-# To block one, uncomment its two lines.
+# Search bots (OAI-SearchBot, Claude-SearchBot, PerplexityBot) are what put the site in AI answers:
+# keep them open. Training bots (GPTBot, ClaudeBot, Google-Extended, Applebot-Extended) can be
+# blocked without affecting Google Search, ChatGPT search or Siri. To block one, uncomment its two lines.
 # User-agent: GPTBot            # OpenAI, model training
 # Disallow: /
 # User-agent: OAI-SearchBot     # ChatGPT search results

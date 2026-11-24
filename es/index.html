@@ -44,39 +44,93 @@
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
- "@type": "MobileApplication",
- "name": "Mindfulness",
- "alternateName": "Mindfulness: meditación guiada",
- "description": "Meditación guiada para iPhone y iPad: más de 100 sesiones, desde 2 minutos, para empezar el día con calma, soltar la tensión y dormir.",
- "operatingSystem": "iOS, iPadOS",
- "applicationCategory": "HealthApplication",
- "inLanguage": [
-  "es",
-  "en",
-  "de",
-  "fr",
-  "it",
-  "ru",
-  "ja",
-  "ko",
-  "zh-Hans",
-  "zh-Hant"
- ],
- "url": "https://www.zmeditations.com/es/",
- "downloadUrl": "https://apps.apple.com/es/app/id572966485",
- "installUrl": "https://apps.apple.com/es/app/id572966485",
- "image": "https://www.zmeditations.com/assets/img/compartir.jpg",
- "author": {
-  "@type": "Organization",
-  "name": "Z Meditations",
-  "url": "https://www.zmeditations.com/"
- },
- "offers": {
-  "@type": "Offer",
-  "price": "0",
-  "priceCurrency": "EUR",
-  "description": "Descarga gratis. Mindfulness Pro es opcional."
- }
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://www.zmeditations.com/#org",
+   "name": "Z Meditations",
+   "url": "https://www.zmeditations.com/",
+   "logo": "https://www.zmeditations.com/android-chrome-512x512.png",
+   "email": "zmeditations@gmail.com"
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://www.zmeditations.com/#web",
+   "name": "Mindfulness",
+   "url": "https://www.zmeditations.com/",
+   "inLanguage": "es",
+   "publisher": {
+    "@id": "https://www.zmeditations.com/#org"
+   }
+  },
+  {
+   "@type": "MobileApplication",
+   "@id": "https://www.zmeditations.com/#app",
+   "name": "Mindfulness Meditación Guiada",
+   "alternateName": [
+    "Mindfulness",
+    "Mindfulness: meditación guiada",
+    "Mindfulness: Guided Meditation"
+   ],
+   "description": "Meditación guiada para iPhone y iPad: más de 100 sesiones, desde 2 minutos, para empezar el día con calma, soltar la tensión y dormir.",
+   "operatingSystem": "iOS, iPadOS",
+   "applicationCategory": "HealthApplication",
+   "inLanguage": [
+    "es",
+    "en",
+    "de",
+    "fr",
+    "it",
+    "ru",
+    "ja",
+    "ko",
+    "zh-Hans",
+    "zh-Hant"
+   ],
+   "datePublished": "2012-12-08",
+   "url": "https://www.zmeditations.com/es/",
+   "downloadUrl": "https://apps.apple.com/es/app/id572966485",
+   "installUrl": "https://apps.apple.com/es/app/id572966485",
+   "sameAs": [
+    "https://apps.apple.com/app/id572966485"
+   ],
+   "image": "https://www.zmeditations.com/assets/img/compartir.jpg",
+   "screenshot": [
+    "https://www.zmeditations.com/assets/img/manana-720.webp",
+    "https://www.zmeditations.com/assets/img/dormir-720.webp",
+    "https://www.zmeditations.com/assets/img/duracion-720.webp",
+    "https://www.zmeditations.com/assets/img/respira-720.webp",
+    "https://www.zmeditations.com/assets/img/diario-720.webp"
+   ],
+   "featureList": [
+    "Más de 100 sesiones guiadas, desde 2 minutos",
+    "Sesiones para dormir de 10 a 50 minutos que se apagan solas",
+    "12 programas de 3 a 21 días",
+    "61 técnicas explicadas paso a paso",
+    "Respiración 4-7-8 con un círculo, sin voz",
+    "Temporizador con campanas",
+    "Sonidos de fondo: lluvia, océano, bosque y río",
+    "Diario de ánimo antes y después de meditar",
+    "Sin cuenta",
+    "Sin conexión si descargas antes",
+    "Widgets",
+    "Apple Salud",
+    "10 idiomas"
+   ],
+   "author": {
+    "@id": "https://www.zmeditations.com/#org"
+   },
+   "publisher": {
+    "@id": "https://www.zmeditations.com/#org"
+   },
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "description": "Descarga gratis. Mindfulness Pro es opcional."
+   }
+  }
+ ]
 }
 </script>
 <!-- seo:fin -->
